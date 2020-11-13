@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+}
+
+header.header{
+    background: #ffc124;
+    width: 100vw;
+}
+
+img.logo{
+    /* margin-top: 15px; */
+    height: 30px;
+    width: 110px;
+
+}
+img.capa-mulher{
+    height: 400px;
+}
+
+
+li.nav-item a{
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+}
+li.nav-item a:hover{
+    color: rgb(80, 78, 78) !important;
+    transition: 0.6s
+}
+
+button.entrar {
+    font-size: small;
+    padding: 3px;
+}
+button.entrar a.entrar{
+    color: white !important;
+}
+button.entrar:hover{
+    color: rgb(255, 255, 255) !important;
+    opacity: 0.5;
+}
+button.entrar a.entrar:hover{
+    color: rgb(80, 78, 78) !important;
+}
+
+
+div.row {
+    background: #ffc124;
+    /* border: 3px solid red; */
+    height: 80px;
+}
+div.row-2{
+    height: 400px;
+}
+div.col {
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* border: 3px solid green; */
+    /* height: 70px; */
+}
+div.col_1 h1{
+    font-weight: 400;
+    color: white;
+    margin-top: 60px;
+    /* margin-left: 40px;  */
+}
+div.col_1 h6{
+    font-weight: lighter;
+    color: white;
+    /* margin-left: 40px; */
+}
+div.col_1 div.input-group{
+    margin-top: 25px;
+    /* margin-left: 40px;  */
+    width: 380px;
+}
+div.col_1 div.input-group-append{
+    color: blue;
+}
+
+
+@media (min-width: 1100px){
+    div.col_1 h1{
+        /* margin-left: 40px; */
+    }
+    div.col_1 h6{
+        /* margin-left: 40px; */
+    }
+    div.col_1 div.input-group{
+        /* margin-left: 40px; */
+    }
+
+}
