@@ -125,13 +125,7 @@ div.col_1 div.input-group-append{
     text-align: justify;
 }
 
-.menu_rodape{
-    display: flex;
-    justify-content: space-evenly;
-}
-.menu_rodape a{
-    width: 100px;
-}
+
 a.nav_2_link{
     color: cornflowerblue;
     font-weight: bold;
@@ -146,12 +140,16 @@ a.nav_2_link{
 }
 
 .footer_col{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px -40px 20px 40px;
 }
-
-.mobile{
-    border: 1px solid rgb(10, 5, 7);
+.footer_col a{
+    text-decoration: none;
+}
+img.mobile{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
     padding: 3px;
 }
 a.mob{
@@ -170,5 +168,12 @@ a.mob{
     border: 1px solid rgb(209, 7, 7);
 }
 .social{
-    padding: 3px;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.menu{
+    justify-content: flex-end;
 }
