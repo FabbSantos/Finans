@@ -135,12 +135,14 @@ a.nav_2_link {
   border: none;
   padding: 5px;
 }
-
+footer {
+  overflow: hidden;
+}
 .footer_col {
   margin: 20px -60px 20px 40px;
 }
 .footer_col_0 {
-  margin: 10px 60px 10px 60px;
+  margin: 10px 0px 10px 60px;
 }
 .footer_col a {
   text-decoration: none;
